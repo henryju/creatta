@@ -1,13 +1,9 @@
 package org.mmteam.creatta.model
 
-import javax.annotation.Generated
-import javax.persistence.{GenerationType, GeneratedValue, Id, Entity}
+import org.mmteam.creatta.persistence.RaceDB
 
-@Entity
 class Race {
 
-  @Id
-  @GeneratedValue(strategy = GenerationType.AUTO)
   var id: Long = 0
 
   var name: String = ""
@@ -15,9 +11,11 @@ class Race {
 }
 
 object Race {
-    def getAll: List[Race] = {
-        val races = List()
-        
-        races
-    }
+  def getAll: List[Race] = {
+    val races = List()
+
+    races
+  }
+
+  implicit def race2raceDBPersist(race : Race) : RaceDB = new RaceDB
 }
