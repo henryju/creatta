@@ -19,6 +19,7 @@ public class MainWindow extends JFrame {
      * Create the application.
      */
     public MainWindow() {
+        // TODO
         initialize();
     }
 
