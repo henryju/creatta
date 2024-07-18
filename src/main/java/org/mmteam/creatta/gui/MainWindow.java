@@ -27,6 +27,7 @@ public class MainWindow extends JFrame {
      * Initialize the contents of the frame.
      */
     private void initialize() {
+        // TODO another issue
         this.setBounds(100, 100, 450, 300);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
