@@ -43,6 +43,7 @@ public class MainWindow extends JFrame {
     }
 
     private JMenuBar getMenuBar_1() {
+        // TODO another issue 2
         if (menuBar == null) {
             menuBar = new JMenuBar();
             menuBar.add(getMnFichier());
