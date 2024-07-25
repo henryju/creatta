@@ -52,6 +52,7 @@ public class MainWindow extends JFrame {
     }
 
     private JMenu getMnFichier() {
+        // TODO another issue 3
         if (mnFichier == null) {
             mnFichier = new JMenu("Fichier");
             mnFichier.add(getMenuQuitter());
