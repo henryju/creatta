@@ -21,6 +21,7 @@ public class MainWindow extends JFrame {
     public MainWindow() {
         // TODO
         initialize();
+        // TODO another here
     }
 
     /**
