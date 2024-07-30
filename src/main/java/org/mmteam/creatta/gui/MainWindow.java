@@ -37,6 +37,7 @@ public class MainWindow extends JFrame {
     }
 
     private JDesktopPane getDesktopPane() {
+        // TODO Another one
         if (desktopPane == null) {
             desktopPane = new JDesktopPane();
         }
