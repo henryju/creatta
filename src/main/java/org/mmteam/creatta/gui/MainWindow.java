@@ -19,13 +19,16 @@ public class MainWindow extends JFrame {
      * Create the application.
      */
     public MainWindow() {
+        // TODO
         initialize();
+        // TODO another here
     }
 
     /**
      * Initialize the contents of the frame.
      */
     private void initialize() {
+        // TODO another issue
         this.setBounds(100, 100, 450, 300);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -34,6 +37,7 @@ public class MainWindow extends JFrame {
     }
 
     private JDesktopPane getDesktopPane() {
+        // TODO Another one
         if (desktopPane == null) {
             desktopPane = new JDesktopPane();
         }
@@ -41,6 +45,7 @@ public class MainWindow extends JFrame {
     }
 
     private JMenuBar getMenuBar_1() {
+        // TODO another issue 2
         if (menuBar == null) {
             menuBar = new JMenuBar();
             menuBar.add(getMnFichier());
@@ -49,6 +54,7 @@ public class MainWindow extends JFrame {
     }
 
     private JMenu getMnFichier() {
+        // TODO another issue 3
         if (mnFichier == null) {
             mnFichier = new JMenu("Fichier");
             mnFichier.add(getMenuQuitter());
